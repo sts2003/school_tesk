@@ -3,17 +3,16 @@ import {
   RsWrapper,
   WholeWrapper,
   Wrapper,
-} from "./components/commonComponents";
-import styled from "styled-components";
+} from "../../../components/commonComponents";
 
-const App = () => {
+const MM00Presenter = () => {
   return (
     <WholeWrapper>
       <RsWrapper>
-        <Wrapper>Hello world</Wrapper>
+        <Wrapper>MM00</Wrapper>
       </RsWrapper>
     </WholeWrapper>
   );
 };
 
-export default App;
+export default MM00Presenter;
